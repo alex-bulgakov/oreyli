@@ -52,7 +52,7 @@ body {
 
 .header__title a {
   color: rgb(174, 126, 240);
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 .main-nav a::after {
