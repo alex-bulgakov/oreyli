@@ -42,14 +42,27 @@ body {
   float: left;
 }
 
-h1 {
+.header__title {
   color: rgb(174, 126, 240);
   text-align: center;
   margin: 0;
+  font-size: 50px;
+  
 }
 
+.header__title a {
+  color: rgb(174, 126, 240);
+  text-decoration: none;
+}
 
-a {
+.main-nav a::after {
+  content: "|";
+  margin: 10px;
+}
+.main-nav a:last-child::after {
+  content: "";
+}
+.main-nav a {
   text-decoration: none;
   font-size: 0.8em;
   text-transform: uppercase;
@@ -78,4 +91,21 @@ a:hover {
 .footer__title {
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.content__vio {
+  margin-left: 30px;
+}
+
+.content__vio dt {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.content__vio dd {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  color: rgba(0, 0, 0, 0.53);
 }
