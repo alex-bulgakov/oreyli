@@ -10,10 +10,30 @@ body {
   box-shadow: 10px 0 5px -5px rgba(0,0,0,.1),
     -10px 0 5px -5px rgba(0,0,0,.1);
   background: #fff;
+  min-height: 1080px;
 }
 .header, .content, .footer {
   width: 885px;
   margin: auto;
+}
+
+.content {
+  min-height: 500px;
+}
+
+.col1 {
+  width: 295px;
+  float: left;
+}
+
+.col2 {
+  width: 590px;
+  float: left;
+}
+
+.col3 {
+  width: 885px;
+  float: left;
 }
 
 h1 {
@@ -30,7 +50,7 @@ p {
 
 a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 0.8em;
   text-transform: uppercase;
   color: rgb(15, 152, 105);
 }
@@ -46,24 +66,6 @@ a:hover {
 }
 
 
-.content__column-left {
-  float: left;
-  width: 600px;
-}
-
-.content__column-right {
-  float: right;
-}
-
-.footer__contact {
-  float: left;
-  width: 200px;
-}
-
-.footer__sitemap {
-  float: right;
-  width: 200px;
-}
 .footer__title {
   font-size: 14px;
   text-transform: uppercase;
