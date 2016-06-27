@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>O'Reylli</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
 </head>
 <body>
   <header class="header">
-    <h1>Notifier</h1>
+    <h1 class="header__title">Notifier</h1>
     <nav class="main-nav">
       <a href="#1">Регистрация</a>  |
       <a href="#2">ВиО</a>  |
@@ -16,29 +18,32 @@
   
   
   
-  <main class="content">
-    <h2>Notifier изменит вашу жизнь!</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias, vero voluptas tempore nostrum dignissimos?</p>
-    <h3>Почему вам нужен Notifier?</h3>
-    <ul>
-      <li>Он легко впишется в вашу жизнь</li>
-      <li>Он классный</li>
-      <li>Он перевернет ваш мир</li>
-    </ul>
-    <img src="https://image.freepik.com/free-icon/light-bulb-lamp_318-30858.png" alt="lamp image" width="200" height="200">
+  <main class="content clearfix">
+    <div class="content__column-left">
+      <h2 class="content__title">Notifier изменит вашу жизнь!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias, vero voluptas tempore nostrum dignissimos?</p>
+      <h3>Почему вам нужен Notifier?</h3>
+      <ul class="content__features">
+        <li>Он легко впишется в вашу жизнь</li>
+        <li>Он классный</li>
+        <li>Он перевернет ваш мир</li>
+      </ul>
+    </div>
+    <div class="content__column-right"><img src="https://image.freepik.com/free-icon/light-bulb-lamp_318-30858.png" alt="lamp image" width="200" height="200">
+       </div> 
   </main>
   
   
   
-  <footer class="footer">
-    <div class="contact">
-      <h5>Свяжитесь с нами</h5>
+  <footer class="footer clearfix">
+    <div class="footer__contact">
+      <h5 class="footer__title">Свяжитесь с нами</h5>
       <p>Notifier</p>
       <p>555 50-я улица</p>
       <p>Эшвил, Северная Каролина 23356</p>
     </div>
-    <div class="sitemap">
-      <h5>Карта сайта</h5>
+    <div class="footer__sitemap">
+      <h5 class="footer__title">Карта сайта</h5>
       <ul>
         <li><a href="#">Домой</a></li>
         <li><a href="#">О нас</a></li>
