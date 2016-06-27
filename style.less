@@ -1,15 +1,25 @@
 body {
-  background: rgba(204, 235, 225, 0.77);
-  width: 800px;
+  background: #f2f2f2;
+  width: 900px;
   margin: auto;
   font-family: Ubuntu, Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
+.shadow {
+  box-shadow: 10px 0 5px -5px rgba(0,0,0,.1),
+    -10px 0 5px -5px rgba(0,0,0,.1);
+  background: #fff;
+}
+.header, .content, .footer {
+  width: 885px;
+  margin: auto;
+}
 
 h1 {
   color: rgb(174, 126, 240);
   text-align: center;
+  margin: 0;
 }
 
 p {
@@ -35,9 +45,6 @@ a:hover {
   clear: both;
 }
 
-.content {
-  background: rgb(222, 222, 222);
-}
 
 .content__column-left {
   float: left;
