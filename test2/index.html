@@ -7,33 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__title">
-      Комментарии
-    </h1>
-    <em>Простое приложение, позволяющее писать комментарии</em>
-  </header>  
-  
-  
-  
-  <main class="content">
-    <section class="content__comment-input">
-      <p class="content__comment-title">
-        Добавьте ваш комментарий
-      </p> 
-      <input type="text" class="content__comment-input">
-    </section>
-    <section class="content__comments">
-      <p>Comment 1</p>
-      <p>Comment 2</p>
-      <p>Comment 3</p>
-      <p>Comment 4</p>
-      <p>Comment 5</p>
-    </section>
-  </main>
-  <footer class="footer">
-    <p>Работа размещена на общественном домене</p>
-  </footer>
+  <div class="conainer">
+   
+    <header class="header clearfix">
+      <h1 class="header__title span1">
+        Комментарии
+      </h1>
+      <em class="span2">Простое приложение, позволяющее писать комментарии</em>
+    </header>  
+    
+    
+    
+    <main class="content clearfix">
+      <section class="content__comment-input span1">
+        <p class="content__comment-title">
+          Добавьте ваш комментарий
+        </p> 
+        <input type="text" class="content__comment-input">
+      </section>
+      <section class="content__comments span2">
+        <p>Comment 1</p>
+        <p>Comment 2</p>
+        <p>Comment 3</p>
+        <p>Comment 4</p>
+        <p>Comment 5</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Работа размещена на общественном домене</p>
+    </footer>
+</div>
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="script.js"></script>
 </body>

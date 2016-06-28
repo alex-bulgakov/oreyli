@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.conainer {
+  width: 855px;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.span1 {
+  display: inline;
+  width: 285px;
+  float: left;
+}
+.span2 {
+  display: inline;
+  width: 570px;
+  float: left;
+}
+.span3 {
+  display: inline;
+  width: 855px;
+  float: left;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.header em {
+  
+  text-align: right;
+}
+
+.content {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.content__comments {
+  text-align: center;
+}
+
+.content__comments p {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.content__comments p:nth-child(odd) {
+  background: #aaaaaa;  
+}
+.content__comments p:nth-child(even) {
+  background: #dddddd;  
+}
