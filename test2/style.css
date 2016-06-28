@@ -50,6 +50,7 @@
 }
 
 .content__comments p {
+  position: relative;
   margin-bottom: 5px;
   border-radius: 5px;  
   padding: 5px;
@@ -84,4 +85,15 @@
 }
 .content__comment-btn:active {
   box-shadow: 0 0 5px rgba(119, 119, 119, 0.79);
+}
+
+div[id^="close_p"] {
+  position: absolute;
+  right: -40px;
+  top: 0;
+  
+  width: 27px;
+  height: 27px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.62);
+  cursor: pointer;
 }
