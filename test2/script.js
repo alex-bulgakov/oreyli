@@ -7,6 +7,7 @@ var main = function() {
     if ($("input.content__comment-input").val() != "") {
       $new_comment = $("<p id='p" + count + "'>").text($("input.content__comment-input").val());
       $close_comment = $("<div id='close_p" + count + "'>");
+      $close_comment.text("+");
       $new_comment.hide();
       $(".content__comments").append($new_comment);
       $(".content__comments p#p" + count).append($close_comment);
