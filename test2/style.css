@@ -94,6 +94,8 @@ div[id^="close_p"] {
   
   width: 27px;
   height: 27px;
+  border-radius: 50%;
+  background: #ff6767;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.62);
   cursor: pointer;
 }

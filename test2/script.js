@@ -22,7 +22,9 @@ var main = function() {
   var addEventClose = function () {
      $("div[id^='close_p']").on("click", function(event){
       var $p = event.target.id.split('_')[1]; 
-      $("#" + $p).remove();
+      $("#" + $p).fadeOut(500, function () {
+        $("#" + $p).remove();
+      })
     });
   }
   
