@@ -15,7 +15,7 @@ body {
   background: #fff;
   min-height: 1080px;
 }
-.header, .content, .footer {
+.container {
   width: 885px;
   margin: auto;
 }
@@ -85,9 +85,6 @@ a:hover {
   background: #d1d1d1;
 }
 
-.footer__contact {
-  padding: 10px;
-}
 .footer__title {
   font-size: 14px;
   text-transform: uppercase;
@@ -108,4 +105,35 @@ a:hover {
   font-weight: normal;
   margin-bottom: 25px;
   color: rgba(0, 0, 0, 0.53);
+}
+
+.content__tabs {
+  font-size: 0;
+}
+.content__tabs-item {
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  background: #989898;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  margin-right: 5px;
+}
+.content__tabs-item--active {
+  background: #d0d0d0;
+}
+.content__notes {
+  background: #d0d0d0;
+}
+.content__notes ul {
+  margin: 0;
+  padding: 15px 10px;
+  list-style: none;
+}
+.content__notes li {
+  background: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }

@@ -3,56 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <title>O'Reylli</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="shadow">
     <header class="header clearfix">
-      <h1 class="header__title col2">Notifier</h1>
-      <nav class="main-nav col1">
-        <a href="#1">Регистрация</a> 
-        <a href="vio.html">ВиО</a> 
-        <a href="#3">Техподдержка</a>
-      </nav>
+      <div class="container">
+        <div class="container">
+          <h1 class="header__title col2">Notifier</h1>
+          <nav class="main-nav col1">
+            <a href="#1">Регистрация</a> 
+            <a href="vio.html">ВиО</a> 
+            <a href="#3">Техподдержка</a>
+          </nav>
+        </div>
+      </div>
     </header>
     
     
     
     <main class="content clearfix">
-      <div class="content__column-left col2">
-        <h2 class="content__title">Notifier изменит вашу жизнь!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias, vero voluptas tempore nostrum dignissimos?</p>
-        <h3>Почему вам нужен Notifier?</h3>
-        <ul class="content__features">
-          <li>Он легко впишется в вашу жизнь</li>
-          <li>Он классный</li>
-          <li>Он перевернет ваш мир</li>
-        </ul>
+      <div class="container">
+        <div class="content__tabs">
+          <a href="#"><span class="content__tabs-item content__tabs-item--active">
+            Новые
+          </span></a>
+          <a href="#"><span class="content__tabs-item">
+            Старые
+          </span></a>
+          <a href="#"><span class="content__tabs-item">
+            Добавить
+          </span></a>
+        </div>
+        <div class="content__notes">
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, iste.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minima.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, iste?</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sapiente.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, blanditiis.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, obcaecati?</li>
+          </ul>
+        </div>
       </div>
-      <div class="content__column-right col1"><img src="https://image.freepik.com/free-icon/light-bulb-lamp_318-30858.png" alt="lamp image" width="200" height="200">
-         </div> 
     </main>
     
     
     
     <footer class="footer clearfix">
-      <div class="footer__contact col2">
-        <h5 class="footer__title">Свяжитесь с нами</h5>
-        <p>Notifier</p>
-        <p>555 50-я улица</p>
-        <p>Эшвил, Северная Каролина 23356</p>
-      </div>
-      <div class="footer__sitemap col1">
-        <h5 class="footer__title">Карта сайта</h5>
-        <ul>
-          <li><a href="#">Домой</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Право</a></li>
-          <li><a href="#">Техподдержка</a></li>
-          <li><a href="#">ВиО</a></li>
-          <li><a href="#">Вакансии</a></li>
-        </ul>
+      <div class="container">
+        <div class="footer__contact col2">
+          <h5 class="footer__title">Свяжитесь с нами</h5>
+          <p>Notifier</p>
+          <p>555 50-я улица</p>
+          <p>Эшвил, Северная Каролина 23356</p>
+        </div>
+        <div class="footer__sitemap col1">
+          <h5 class="footer__title">Карта сайта</h5>
+          <ul>
+            <li><a href="#">Домой</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Право</a></li>
+            <li><a href="#">Техподдержка</a></li>
+            <li><a href="#">ВиО</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </div>
       </div>
     </footer>  
   </div>
